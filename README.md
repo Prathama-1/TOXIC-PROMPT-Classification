@@ -67,3 +67,9 @@ files.download(filename)
 - In a real-time system, the model should act like an API microservice that gets user prompt before they are sent to the Generative LLM. Each prompt that is intercepted will go through the classifier and if when flagged, the response can be handled accordingly.
 
 
+## - References
+
+- https://huggingface.co/distilbert/distilbert-base-uncased
+- https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
+- https://huggingface.co/docs/transformers/en/main_classes/trainer#transformers.TrainingArguments
+- https://huggingface.co/docs/transformers/main/en/training
