@@ -1,20 +1,27 @@
-# 🧠 TOXIC PROMPT Classification – GENAI Assessment
+#  - TOXIC PROMPT Classification
 
-This project focuses on building a transformer-based classification system to detect **toxic prompts** in text using Natural Language Processing (NLP) techniques. It was built as part of a GENAI Assessment to showcase the application of responsible AI.
-
----
-
-## 📌 Objective
-
-To fine-tune a transformer model that can accurately classify prompts as **toxic** or **non-toxic**, enabling effective **prompt guardrails** in AI systems and minimizing the spread of harmful content.
+This project focuses on building a transformer-based classification system to detect and flag the **toxic prompts** during customer engagements.
 
 ---
 
-## ⚙️ Environment Setup
+## - Objective
 
-Ensure the following tools and libraries are installed in your Python environment:
+To fine-tune a transformer model that can accurately classify prompts as **safe** or **unsafe**, enabling effective **prompt guardrails** in GENAI systems.
 
-### 1. Clone the Repository
+---
+
+## - Explanation
+
+All the explanation about the setup, dataset used, model and metrics are clearly given in the notebook.
+
+## - Summary and Discussion
+
+### 1. Results
+
+- Accuracy: ~96.8%
+- F1-score: ~0.84
+- Precision/Recall show strong balance for binary toxic content classification.
+
 
 ```bash
 git clone https://github.com/Prathama-1/TOXIC-PROMPT-Classification.git
